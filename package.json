@@ -1,0 +1,26 @@
+{
+  "name": "github-rating-app",
+  "version": "1.0.0",
+  "description": "A simple app to track and rate github repositories using redux.",
+  "main": "public/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayzamazing/github-rating-app.git"
+  },
+  "keywords": [
+    "github",
+    "rating",
+    "javascript",
+    "redux",
+    "react"
+  ],
+  "author": "adrian jay lopez <adrianjaylopez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayzamazing/github-rating-app/issues"
+  },
+  "homepage": "https://github.com/jayzamazing/github-rating-app#readme"
+}
