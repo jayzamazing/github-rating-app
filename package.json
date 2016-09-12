@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jayzamazing/github-rating-app/issues"
   },
-  "homepage": "https://github.com/jayzamazing/github-rating-app#readme"
+  "homepage": "https://github.com/jayzamazing/github-rating-app#readme",
+  "dependencies": {
+    "redux": "^3.6.0"
+  }
 }
