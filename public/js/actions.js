@@ -11,7 +11,7 @@ var addRepository = function(repository) {
 //type property
 var RATE_REPOSITORY = 'RATE_REPOSITORY';
 //action creator, gives a repository a rating
-var rateRepository = function(respository, rating) {
+var rateRepository = function(repository, rating) {
   //return action
   return {
     type: RATE_REPOSITORY,
