@@ -1,9 +1,12 @@
 var React = require('react');
 var connect = require('react-redux').connect;
 var StarRater = require('./star-rater');
+var actions = require('./actions');
 var Repository = React.createClass({
   changeRating: function(rating) {
-    //TODO: change the rating
+    this.props.dispatch(
+            actions.rateRepository(this.props.repository.name, rating)
+        );
   },
   render: function() {
     return (
