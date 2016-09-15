@@ -1,4 +1,5 @@
 var React = require('react');
+var connect = require('react-redux').connect;
 var StarRater = require('./star-rater');
 var Repository = React.createClass({
   changeRating: function(rating) {
@@ -16,4 +17,5 @@ var Repository = React.createClass({
   }
 });
 
-module.exports = Repository;
+var Container = connect()(Repository);
+module.exports = Container;

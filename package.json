@@ -1,6 +1,6 @@
 {
   "name": "github-rating-app",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple app to track and rate github repositories using redux.",
   "main": "public/js/index.js",
   "scripts": {

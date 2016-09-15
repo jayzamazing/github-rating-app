@@ -22,12 +22,14 @@ var RepositoryList = React.createClass({
     );
   }
 });
+//function to describe how the different parts of the state should be inserted
 var mapStateToProps = function(state, props) {
+    //each key is a single prop to be added to wrapped component
     return {
         repositories: state
     };
 };
+//create factory returning container component wrapping repositorylist component
 var Container = connect(mapStateToProps)(RepositoryList);
 
 module.exports = Container;
-module.exports = RepositoryList;

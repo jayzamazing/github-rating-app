@@ -7,6 +7,7 @@ var RepositoryList = require('./repository-list');
 
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
+      //allows access to parts of store and dispatch
       <Provider store={store}>
           <RepositoryList />
       </Provider>,
