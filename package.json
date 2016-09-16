@@ -1,6 +1,6 @@
 {
   "name": "github-rating-app",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "A simple app to track and rate github repositories using redux.",
   "main": "public/js/index.js",
   "scripts": {
@@ -49,10 +49,12 @@
   },
   "homepage": "https://github.com/jayzamazing/github-rating-app#readme",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
